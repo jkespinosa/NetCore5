@@ -1,12 +1,10 @@
-﻿using alkemyTest.dbContext;
-using alkemyTest.Models;
+﻿using alkemyTest.Models;
+using alkemyTest.Services.Contracts;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Security.Claims;
 using System.Threading.Tasks;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -15,77 +13,116 @@ namespace alkemyTest.Controllers
 {
     [Route("[controller]")]
     [ApiController]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
     public class CharacterController : ControllerBase
     {
-        private ApplicationDbContext _context;
-        public CharacterController(ApplicationDbContext context)
+        private readonly ICharacterService _characterService;
+        public CharacterController(ICharacterService patient)
         {
-            _context = context;
+            _characterService = patient;
         }
 
-        // GET: api/<CharacterController>
-        [HttpGet("Character")]
-        [Authorize]
-        public async Task<List<Character>> Get()
+
+        [HttpGet]
+         [Authorize]
+        public async Task<IActionResult> Get()
         {
-
-            List<Character> lsc = null;
-
             try
             {
-                lsc = await _context.Characters.ToListAsync();
-                //return lsc;
+                var characters = await _characterService.GetCharacters();
+
+                return Ok(characters);
             }
             catch (Exception ex)
             {
-                ModelState.AddModelError(string.Empty, $"Something went wrong {ex.Message}");
+                return BadRequest(ex.Message);
             }
-
-            return lsc;
 
         }
 
         [HttpPost]
+          [Authorize]
         public async Task<Character> Create(Character character)
+        {
+            if (ModelState.IsValid)
+            {
+                return await _characterService.AddCharacter(character);
+            }
+
+            ModelState.AddModelError(string.Empty, $"Something went wrong, invalid model");
+
+            return character;
+        }
+
+        [HttpPut("{id}")]
+        [Authorize]
+        public async Task<IActionResult> Put(Guid id, Character model)
         {
             // validate that our model meets the requirement
             if (ModelState.IsValid)
             {
                 try
                 {
-                    // update the ef core context in memory 
-                    _context.Add(character);
+                    if (id != model.Id)
+                    {
+                        ModelState.AddModelError(string.Empty, $"Something went wrong, invalid model");
+                        return NotFound();
+                    }
+                    else
+                    {
+                        var addNew = await _characterService.UpdateCharacter(id, model);
 
-                    // sync the changes of ef code in memory with the database
-                    await _context.SaveChangesAsync();
-
-                    // return RedirectToAction("Index");
-                    return character;
+                        if (addNew == true)
+                            return Ok(model);
+                        else
+                            ModelState.AddModelError(string.Empty, $"Something went wrong ");
+                    }
                 }
+
                 catch (Exception ex)
                 {
                     ModelState.AddModelError(string.Empty, $"Something went wrong {ex.Message}");
                 }
+
+
+                ModelState.AddModelError(string.Empty, $"Something went wrong, invalid model");
+
             }
+            return NotFound();
 
-            ModelState.AddModelError(string.Empty, $"Something went wrong, invalid model");
-
-            // We return the object back to view
-            return character;
         }
-
-        // PUT api/<CharacterController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/<CharacterController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        [Authorize]
+        public async Task<IActionResult> Delete(Guid id, Character model)
         {
+
+            try
+            {
+                if (id != model.Id)
+                {
+                    ModelState.AddModelError(string.Empty, $"Something went wrong, invalid model");
+                    return NotFound();
+                }
+                else
+                {
+
+                    var Del = await _characterService.DeleteCharacter(id);
+
+                    if (Del == true)
+                        return Ok(model);
+                    else
+                        ModelState.AddModelError(string.Empty, $"Something went wrong ");
+
+                }
+            }
+            catch (Exception ex)
+            {
+                ModelState.AddModelError(string.Empty, $"Something went wrong {ex.Message}");
+            }
+            return NotFound();
+
+
         }
 
-       
     }
 }

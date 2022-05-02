@@ -1,4 +1,6 @@
 using alkemyTest.dbContext;
+using alkemyTest.Services;
+using alkemyTest.Services.Contracts;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -46,6 +48,8 @@ namespace alkemyTest
                });
 
             services.AddDbContext<ApplicationDbContext>(options =>options.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddTransient<ICharacterService, CharacterService>();
+
             services.AddDatabaseDeveloperPageExceptionFilter();
             services.AddControllers();
             services.AddSwaggerGen(c =>
