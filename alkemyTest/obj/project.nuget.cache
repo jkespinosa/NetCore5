@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rl024+zR4Bm6l4Xf+h4Z/70ontjnR2yHvDDhn+MuQmEVRTqF5bLl2f6j6ntsEfwve43DsxaqGIyWQxdOcqwYuw==",
+  "dgSpecHash": "cIb/2PcIJ8M=",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP2022\\Documents\\alkemyTest\\alkemyTest\\alkemyTest\\alkemyTest.csproj",
+  "projectFilePath": "C:\\Users\\HP2022\\Documents\\GitHub\\NetCore5\\alkemyTest\\alkemyTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP2022\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\HP2022\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.16\\microsoft.aspnetcore.authentication.jwtbearer.5.0.16.nupkg.sha512",
@@ -149,7 +149,19 @@
     "C:\\Users\\HP2022\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\HP2022\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\HP2022\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\HP2022\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\HP2022\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\HP2022\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.IdentityModel.Tokens.Jwt' 6.17.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
+      "libraryId": "System.IdentityModel.Tokens.Jwt",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }

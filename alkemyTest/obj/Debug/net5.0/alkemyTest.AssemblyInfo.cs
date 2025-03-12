@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("alkemyTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+180a73bf14cd827bf1bdd727d250c4b3492a0cae")]
 [assembly: System.Reflection.AssemblyProductAttribute("alkemyTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("alkemyTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

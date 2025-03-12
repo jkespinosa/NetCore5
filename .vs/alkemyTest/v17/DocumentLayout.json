@@ -1,0 +1,194 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP2022\\Documents\\GitHub\\NetCore5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AFE9B95D-DA17-470C-A7FF-6F644B59F864}|alkemyTest\\alkemyTest.csproj|c:\\users\\hp2022\\documents\\github\\netcore5\\alkemytest\\controllers\\charactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFE9B95D-DA17-470C-A7FF-6F644B59F864}|alkemyTest\\alkemyTest.csproj|solutionrelative:alkemytest\\controllers\\charactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFE9B95D-DA17-470C-A7FF-6F644B59F864}|alkemyTest\\alkemyTest.csproj|c:\\users\\hp2022\\documents\\github\\netcore5\\alkemytest\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFE9B95D-DA17-470C-A7FF-6F644B59F864}|alkemyTest\\alkemyTest.csproj|solutionrelative:alkemytest\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFE9B95D-DA17-470C-A7FF-6F644B59F864}|alkemyTest\\alkemyTest.csproj|c:\\users\\hp2022\\documents\\github\\netcore5\\alkemytest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFE9B95D-DA17-470C-A7FF-6F644B59F864}|alkemyTest\\alkemyTest.csproj|solutionrelative:alkemytest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFE9B95D-DA17-470C-A7FF-6F644B59F864}|alkemyTest\\alkemyTest.csproj|c:\\users\\hp2022\\documents\\github\\netcore5\\alkemytest\\services\\characterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFE9B95D-DA17-470C-A7FF-6F644B59F864}|alkemyTest\\alkemyTest.csproj|solutionrelative:alkemytest\\services\\characterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFE9B95D-DA17-470C-A7FF-6F644B59F864}|alkemyTest\\alkemyTest.csproj|c:\\users\\hp2022\\documents\\github\\netcore5\\alkemytest\\services\\contracts\\icharacterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFE9B95D-DA17-470C-A7FF-6F644B59F864}|alkemyTest\\alkemyTest.csproj|solutionrelative:alkemytest\\services\\contracts\\icharacterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFE9B95D-DA17-470C-A7FF-6F644B59F864}|alkemyTest\\alkemyTest.csproj|c:\\users\\hp2022\\documents\\github\\netcore5\\alkemytest\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AFE9B95D-DA17-470C-A7FF-6F644B59F864}|alkemyTest\\alkemyTest.csproj|solutionrelative:alkemytest\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFE9B95D-DA17-470C-A7FF-6F644B59F864}|alkemyTest\\alkemyTest.csproj|c:\\users\\hp2022\\documents\\github\\netcore5\\alkemytest\\dbcontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFE9B95D-DA17-470C-A7FF-6F644B59F864}|alkemyTest\\alkemyTest.csproj|solutionrelative:alkemytest\\dbcontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFE9B95D-DA17-470C-A7FF-6F644B59F864}|alkemyTest\\alkemyTest.csproj|c:\\users\\hp2022\\documents\\github\\netcore5\\alkemytest\\models\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFE9B95D-DA17-470C-A7FF-6F644B59F864}|alkemyTest\\alkemyTest.csproj|solutionrelative:alkemytest\\models\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFE9B95D-DA17-470C-A7FF-6F644B59F864}|alkemyTest\\alkemyTest.csproj|c:\\users\\hp2022\\documents\\github\\netcore5\\alkemytest\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFE9B95D-DA17-470C-A7FF-6F644B59F864}|alkemyTest\\alkemyTest.csproj|solutionrelative:alkemytest\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFE9B95D-DA17-470C-A7FF-6F644B59F864}|alkemyTest\\alkemyTest.csproj|c:\\users\\hp2022\\documents\\github\\netcore5\\alkemytest\\models\\userconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFE9B95D-DA17-470C-A7FF-6F644B59F864}|alkemyTest\\alkemyTest.csproj|solutionrelative:alkemytest\\models\\userconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\HP2022\\Documents\\GitHub\\NetCore5\\alkemyTest\\dbContext\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "alkemyTest\\dbContext\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\HP2022\\Documents\\GitHub\\NetCore5\\alkemyTest\\dbContext\\ApplicationDbContext.cs",
+              "RelativeToolTip": "alkemyTest\\dbContext\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T13:54:21.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CharacterService.cs",
+              "DocumentMoniker": "C:\\Users\\HP2022\\Documents\\GitHub\\NetCore5\\alkemyTest\\Services\\CharacterService.cs",
+              "RelativeDocumentMoniker": "alkemyTest\\Services\\CharacterService.cs",
+              "ToolTip": "C:\\Users\\HP2022\\Documents\\GitHub\\NetCore5\\alkemyTest\\Services\\CharacterService.cs",
+              "RelativeToolTip": "alkemyTest\\Services\\CharacterService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T13:54:21.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ICharacterService.cs",
+              "DocumentMoniker": "C:\\Users\\HP2022\\Documents\\GitHub\\NetCore5\\alkemyTest\\Services\\Contracts\\ICharacterService.cs",
+              "RelativeDocumentMoniker": "alkemyTest\\Services\\Contracts\\ICharacterService.cs",
+              "ToolTip": "C:\\Users\\HP2022\\Documents\\GitHub\\NetCore5\\alkemyTest\\Services\\Contracts\\ICharacterService.cs",
+              "RelativeToolTip": "alkemyTest\\Services\\Contracts\\ICharacterService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T13:54:21.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CharacterController.cs",
+              "DocumentMoniker": "C:\\Users\\HP2022\\Documents\\GitHub\\NetCore5\\alkemyTest\\Controllers\\CharacterController.cs",
+              "RelativeDocumentMoniker": "alkemyTest\\Controllers\\CharacterController.cs",
+              "ToolTip": "C:\\Users\\HP2022\\Documents\\GitHub\\NetCore5\\alkemyTest\\Controllers\\CharacterController.cs",
+              "RelativeToolTip": "alkemyTest\\Controllers\\CharacterController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T13:54:21.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\HP2022\\Documents\\GitHub\\NetCore5\\alkemyTest\\Startup.cs",
+              "RelativeDocumentMoniker": "alkemyTest\\Startup.cs",
+              "ToolTip": "C:\\Users\\HP2022\\Documents\\GitHub\\NetCore5\\alkemyTest\\Startup.cs",
+              "RelativeToolTip": "alkemyTest\\Startup.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAxwDIAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T13:54:21.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\HP2022\\Documents\\GitHub\\NetCore5\\alkemyTest\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "alkemyTest\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\HP2022\\Documents\\GitHub\\NetCore5\\alkemyTest\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "alkemyTest\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T13:54:21.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\HP2022\\Documents\\GitHub\\NetCore5\\alkemyTest\\appsettings.json",
+              "RelativeDocumentMoniker": "alkemyTest\\appsettings.json",
+              "ToolTip": "C:\\Users\\HP2022\\Documents\\GitHub\\NetCore5\\alkemyTest\\appsettings.json",
+              "RelativeToolTip": "alkemyTest\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-12T13:54:21.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP2022\\Documents\\GitHub\\NetCore5\\alkemyTest\\Program.cs",
+              "RelativeDocumentMoniker": "alkemyTest\\Program.cs",
+              "ToolTip": "C:\\Users\\HP2022\\Documents\\GitHub\\NetCore5\\alkemyTest\\Program.cs",
+              "RelativeToolTip": "alkemyTest\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T13:54:21.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Character.cs",
+              "DocumentMoniker": "C:\\Users\\HP2022\\Documents\\GitHub\\NetCore5\\alkemyTest\\Models\\Character.cs",
+              "RelativeDocumentMoniker": "alkemyTest\\Models\\Character.cs",
+              "ToolTip": "C:\\Users\\HP2022\\Documents\\GitHub\\NetCore5\\alkemyTest\\Models\\Character.cs",
+              "RelativeToolTip": "alkemyTest\\Models\\Character.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T13:54:21.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserConstants.cs",
+              "DocumentMoniker": "C:\\Users\\HP2022\\Documents\\GitHub\\NetCore5\\alkemyTest\\Models\\UserConstants.cs",
+              "RelativeDocumentMoniker": "alkemyTest\\Models\\UserConstants.cs",
+              "ToolTip": "C:\\Users\\HP2022\\Documents\\GitHub\\NetCore5\\alkemyTest\\Models\\UserConstants.cs",
+              "RelativeToolTip": "alkemyTest\\Models\\UserConstants.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAC9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T13:54:21.757Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
